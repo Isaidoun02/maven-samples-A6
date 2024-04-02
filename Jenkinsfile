@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('check out') {
       steps {
-        git(url: 'https://github.com/Isaidoun02/maven-samples.git', branch: 'master')
+        git(url: 'https://github.com/Isaidoun02/maven-samples-A6/', branch: 'master')
       }
     }
 
